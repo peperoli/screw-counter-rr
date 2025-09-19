@@ -29,10 +29,10 @@ This application integrates MQTT messaging with Socket.IO for real-time communic
 - **Real-time Updates**: Automatic UI updates from MQTT messages
 
 ### MQTT Topics
-- `screw-counter/increment` - Increment the counter
-- `screw-counter/reset` - Reset the counter to zero
-- `screw-counter/count` - Publish current count value
-- `sensors/#` - General sensor data (configurable)
+- `count-target` - Set count target
+- `current-count` - Get current count
+- `reset` - Reset the counter to zero
+- `success` - Success
 
 ## Getting Started
 
